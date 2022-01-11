@@ -25,5 +25,8 @@
   "homepage": "https://github.com/FormCours/I3_Web10_NodeJS_Templating#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6"
   }
 }

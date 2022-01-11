@@ -1,0 +1,15 @@
+<%- include('../partials/_header.ejs') -%>
+
+
+<h1>Home</h1>
+
+<% if( isDay ) { %>
+    <h2>Bonjour</h2>
+<% } else { %>
+    <h2>Bonsoir</h2>
+<% } %>
+
+<p>Nous sommes le <%= dateDuJour %> </p>
+
+
+<%- include('../partials/_footer.ejs') -%>

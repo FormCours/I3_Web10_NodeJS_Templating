@@ -1,0 +1,20 @@
+<%- include('../partials/_header.ejs') -%>
+
+
+<h1>Liste des produits</h1>
+
+<h2><%= category %></h2>
+
+<ul>
+    <% for(const p of products) { %>
+        <li><%= p.name %> <%= p.price %>€</li>
+    <% } %>
+    
+
+    <!-- <% products.forEach(p => { %>
+        <li><%= p.name %> <%= p.price %>€</li>
+    <% }) %> -->
+</ul>
+
+
+<%- include('../partials/_footer.ejs') -%>
